@@ -1,0 +1,42 @@
+/* v0.3.0 */
+ul {
+    width: 100%;
+    height: 30px;
+    background: rgb(23, 24, 23);
+    list-style: none;
+    padding-top: 15px;
+}
+
+ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+ul li a {
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgba(155, 152, 152, 0.89);
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+section div {
+    display: inline-block;
+}
+
+.block {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    background-color: bisque;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.section1 {
+    margin-bottom: 110px;
+    text-align: center;
+    background-color: aquamarine;
+}
