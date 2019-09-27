@@ -1,5 +1,5 @@
 /* 
-* index.html v0.7.0
+* index.html v0.8.0
 * Update : 2019.09.27
 * Author : Aram,Kim 
 */
@@ -100,4 +100,52 @@ ul li a {
     padding: 15px;
     background-color: darkseagreen;
     text-align: center;
+}
+
+.article5_bg {
+    padding: 15px;
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.table_s {
+    font-weight: bold;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.article_left {
+    float: left;
+    text-align: right;
+    width: 50%;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.article_left section {
+    margin: 80px 10px;
+}
+.article_left p {
+    font-weight: 600;
+    line-height: 1.7em;
+}
+.article_right {
+    float: right;
+    height: 300px;
+    width: 50%;
+    background-color: darkkhaki;
+    text-align: left;
+}
+
+.article_right section {
+    margin: 80px 10px;
+}
+
+.article_right p {
+    font-weight: 600;
+    line-height: 1.7em;
 }
