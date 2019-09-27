@@ -1,10 +1,22 @@
-/* v0.3.0 */
+/* 
+* index.html v0.7.0
+* Update : 2019.09.27
+* Author : Aram,Kim 
+*/
+
+/* main.css */
+h3,h4 {
+    color: white;
+    font-weight: bold;
+}
+
 ul {
     width: 100%;
     height: 30px;
     background: rgb(23, 24, 23);
     list-style: none;
-    padding-top: 15px;
+    padding: 15px 10px 8px;
+    margin: 0px;
 }
 
 ul li {
@@ -16,27 +28,76 @@ ul li a {
     margin-right: 20px;
     font-size: 15px;
     color: rgba(155, 152, 152, 0.89);
-    font-weight: lighter;
+    font-weight: bold;
     text-decoration: none;
 }
 
-section div {
-    display: inline-block;
+.article1_bg {
+    background-color: cadetblue;
+    text-align: center;
+    height: 300px;
+    padding: 15px;
 }
 
 .block {
-    float: left;
-    width: 50px;
-    height: 50px;
-    border: 3px solid black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
     background-color: bisque;
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
-    line-height: 50px;
+    margin: 10px;
+    padding: 5px;
+    line-height: 200px;
 }
-.section1 {
-    margin-bottom: 110px;
+
+.article2_bg {
+    height: 300px;
+    padding: 15px;
+    background-color: darkslategrey;
     text-align: center;
-    background-color: aquamarine;
+}
+
+.image-cropper-50 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.image-cropper-25 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    border-radius: 25%;
+}
+
+.image-cropper-5 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border-radius: 5%;
+}
+
+.article3_bg {
+    padding: 15px;
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.article4_bg {
+    padding: 15px;
+    background-color: darkseagreen;
+    text-align: center;
 }
