@@ -1,4 +1,9 @@
 # 김아람 : daelim2019-2 project
+## 2019.10.11
+ 1. Header 수정
+ 2. 메뉴 상단에 고정
+ 3. 드롭다운 메뉴 
+ 4. ghost button 삽입
 ## 2019.10.02
  1. CSS Grid
  2. head title 수정
