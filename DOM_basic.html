@@ -1,0 +1,27 @@
+<!--
+* DOM_basic.html
+* Update : 2019.10.23
+* Author : Aram,Kim
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Basic</title>
+</head>
+<script>
+  window.onload = function () {
+    var header =  document.querySelector('h1');
+
+    header.style.color = 'orange';
+    header.style.background = 'red';
+    header.innerHTML = 'From JavaScript';
+  };
+</script>
+<body>
+  <h1>Header</h1>
+  <h1>Header</h1>
+  <h1>Header</h1>
+</body>
+</html>
