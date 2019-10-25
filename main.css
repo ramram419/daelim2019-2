@@ -98,7 +98,7 @@ h3,h4 {
     width: 70%;
     height: 30px;
     list-style: none;
-    padding: 0px;
+    padding: 0px; 
     margin: 10px;
 }
 
@@ -114,12 +114,30 @@ h3,h4 {
     border-bottom:3px solid white;
 }
 
-.menu ul li:hover ul{
+.menu ul li:hover .sub1{
     display: block;
     height: 300px;
     width: 135px;
     padding: 0px 0px 0px 3px;
     margin-left: 0px;
+    margin-top: 0px;
+}
+
+.menu ul li:hover .sub2{
+    display: block;
+    height: 130px;
+    width: 240px;
+    padding: 0px 0px 0px 3px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.menu ul li:hover .sub3{
+    display: block;
+    height: 250px;
+    width: 90px;
+    padding: 0px;
+    margin-left: -15px;
     margin-top: 0px;
 }
 
@@ -133,27 +151,55 @@ h3,h4 {
     text-decoration: none;
 }
 
-.sub-menu {
+.sub1 {
     display: none;
     position: absolute;
     text-align: center;
     background-color: rgb(23, 24, 23);
 }
 
-.sub-menu li {
+.sub1 li {
     display: inline-block;
     width: 130px;
     margin-top: 10px;
 }
 
 .sub-menu li a:hover {
-    background-color: coral;
     color: white;
 }
 
-.sub-menu li a {
-    font-size: 12px;
+.menu ul li ul li a {
+    font-size: 17px;
 }
+
+.sub2 {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(23, 24, 23);
+}
+
+.sub2 li {
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.sub3 {
+    display: none;
+    position: absolute;
+    background-color: rgb(23, 24, 23);
+}
+
+.sub3 li {
+    display: inline-block;
+    width: 90px;
+    margin-top: 10px;
+}
+
+
+
+
 
 
 .article1_bg {

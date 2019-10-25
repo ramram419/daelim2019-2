@@ -1,0 +1,60 @@
+<!--
+* jquery_basic.html v0.1.0 
+* Update : 2019.10.25
+* Author : Aram,Kim
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery Basic</title>
+  <!-- <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+
+    #box.hover {
+      background-color: blue;
+      border-radius: 50px;
+    }
+  </style>-->
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    // $(document).ready(function () {
+    //   $('#box').hover(function () {
+    //     //스타일을 변경합니다.
+    //     $('#box').addClass('hover');
+    //   }, function() {
+    //     //스타일을 변경합니다.
+    //     $('#box').removeClass('hover');
+    //   });
+    // }); 
+    $(document).ready(function() {
+      //스타일 변경 및 이벤트를 연결
+      $('#box').css({
+        width : 100,
+        height : 100,
+        background : 'orange'
+      }).on({
+        click: function () {
+          $(this).css('background', 'red');
+        },
+        mouseenter: function () {
+          $(this).css('background', 'blue');
+        },
+        mouseleave: function () {
+          $(this).css('background', 'orange');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="box"></div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+ <!--
+* jquery_frame.html v0.1.0
+* Update : 2019.10.25
+* Author : Aram,Kim
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Frame animate</title>
+  <script>
+    window.onload = function () {
+      var count = 0;
+      var image = document.getElementById('image');
+      var frames = [
+        'image/0.png', 'image/1.png', 'image/2.png', 'image/3.png', 'image/4.png', 
+        'image/5.png', 'image/6.png', 'image/7.png', 'image/8.png', 'image/9.png', 
+        'image/10.png', 'image/11.png', 'image/12.png', 'image/13.png', 'image/14.png',
+      ];
+      setInterval(function () {
+        image.src = frames[count % frames.length];
+        count = count + 1;
+      }, 1000/50);
+    };
+  </script>
+</head>
+<body>
+  <img id="image" />
+</body>
+</html>
