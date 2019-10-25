@@ -1,5 +1,5 @@
 # 김아람 : daelim2019-2 project
-## 2019.10.25
+## 2019.10.25 
 ### jquerytest.html, jquery_attrBasic.html, jquery_basic.html, jquery_event.html, jquery_animate.html, jquery_frame.html 생성
  1. 현재시간 한국어로 나타내기                              - DOM_Time.html
  2. 문서 객체 선택 및 속성 변경                             - jquerytest.html
