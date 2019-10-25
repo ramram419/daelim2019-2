@@ -1,7 +1,21 @@
 # 김아람 : daelim2019-2 project
+## 2019.10.25
+### jquerytest.html, jquery_attrBasic.html, jquery_basic.html, jquery_event.html, jquery_animate.html, jquery_frame.html 생성
+ 1. 현재시간 한국어로 나타내기                              - DOM_Time.html
+ 2. 문서 객체 선택 및 속성 변경                             - jquerytest.html
+ 3. 외부 이미지 삽입                                        - jquery_attrBasic.html
+ 4. 이벤트(마우스 호버 & 클릭) 생성                         - jquery_basic.html
+ 5. 이벤트(태그 사라졌다 나타나는 효과) 생성                - jquery_event.html
+ 6. 애니메이션 효과                                         - jquery_animate.html
+ 7. 달리기 애니메션 효과                                    - jquery_frame.html
+ 8. 메뉴 3에 jquery 관련 html 연결                          - index.html
+
 ## 2019.10.23
 ### DOM_basic.html, DOM_basic2.html, DOM_Time.html 생성
- 1. 메뉴 2에 DOM html 연결
+ 1. 글과 속성 변경                      - DOM_basic.html
+ 2. 글씨 크기 태그 사용                 - DOM_basic2.html
+ 3. 현재 시간 나타내기                  - DOM_Time.html
+ 4. 메뉴 2에 DOM 관련 html 연결         - index.html
 
 ## 2019.10.11
  1. Header 수정
