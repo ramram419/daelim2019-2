@@ -1,4 +1,4 @@
-# 김아람 : daelim2019-2 
+# 김아람 : daelim2019-2  
 ## 2019.11.08
 ### infinityscroll.html, backstretch.html,  vegas.html, youtubebg.html  생성
  1. 무한 스크롤 
