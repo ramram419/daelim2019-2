@@ -1,4 +1,11 @@
-# 김아람 : daelim2019-2 project
+# 김아람 : daelim2019-2 
+## 2019.11.08
+### infinityscroll.html, backstretch.html,  vegas.html, youtubebg.html  생성
+ 1. 무한 스크롤 
+ 2. 이미지 슬라이드 쇼
+ 3. 사진과 영상으로 배경하기
+ 4. 메뉴 4에 html 연결
+ 
 ## 2019.10.25 
 ### jquerytest.html, jquery_attrBasic.html, jquery_basic.html, jquery_event.html, jquery_animate.html, jquery_frame.html 생성
  1. 현재시간 한국어로 나타내기                              - DOM_Time.html
