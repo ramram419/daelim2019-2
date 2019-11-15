@@ -1,5 +1,5 @@
 # 김아람 : daelim2019-2  
-## 2019.11.15
+## 2019.11.15 
 ### bt-index.html 생성
  1. bootstrap으로 그리드
  2. bootstrap 버튼
