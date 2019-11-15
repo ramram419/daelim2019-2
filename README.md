@@ -1,7 +1,18 @@
 # 김아람 : daelim2019-2  
+## 2019.11.15
+### bt-index.html 생성
+ 1. bootstrap으로 그리드
+ 2. bootstrap 버튼
+ 3. bootstrap modal
+ 4. bootstrap 슬라이드쇼
+ 5. bootstrap progress
+ 6. bootstrap nav 메뉴 만들기
+ 7. bootstrap 메뉴 연결
+ 8. favicon 추가
+
 ## 2019.11.08
 ### infinityscroll.html, backstretch.html,  vegas.html, youtubebg.html  생성
- 1. 무한 스크롤 
+ 1. 무한 스크롤
  2. 이미지 슬라이드 쇼
  3. 사진과 영상으로 배경하기
  4. 메뉴 4에 html 연결
