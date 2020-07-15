@@ -1,5 +1,6 @@
 # 김아람 : daelim2019-2  
- 2019년 2학기 배운 다양한 퍼블리싱 관련 모음<br><br>
+ 2019년 2학기 배운 다양한 퍼블리싱 관련 모음<br>
+ 사이트 주소 : http://barbara0419.dothome.co.kr/<br>
 ## 2019.11.15 
 ### bt-index.html 생성
  1. bootstrap으로 그리드
